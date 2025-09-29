@@ -1,0 +1,17 @@
+{
+  "name": "js-sandbox-learning",
+  "version": "1.0.0",
+  "description": "JavaScript sandbox for hands-on learning and concept exploration",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "practice": "node practices/current.js",
+    "practice:watch": "node --watch practices/current.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": ["javascript", "learning", "sandbox", "practice"],
+  "author": "",
+  "license": "MIT"
+}
